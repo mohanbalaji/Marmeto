@@ -1,0 +1,38 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+.selectitem{
+    margin: auto;
+    width: 1200px
+}
+
+.headers{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin:auto;
+    padding: 5px;
+}
+.heading{
+    text-align: center;
+}
+.itemlist{
+    display: flex;
+    border: 1px #c8c8c8;
+}
+.item-img{
+    flex: 1;
+    margin-left: 200px;
+}
+.pricelist{
+    flex: 1;
+    margin-top: 100px;
+    font-size: x-large;
+}
+.submitbtn{
+    border: 2px solid currentColor;
+    padding: 7px;
+    width: 200px;
+    font-size: 15px;
+}
